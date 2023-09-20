@@ -30,6 +30,9 @@ void _CYCLIC ProgramCyclic(void)
 	}
 
 	Output_1Hz_Inv = (Output_1Hz == 1) ? 0 : 1;
+	
+	//Variant: Set outputs permanantly
+	Output_1Hz = 1;
 }
 
 void _EXIT ProgramExit(void)
