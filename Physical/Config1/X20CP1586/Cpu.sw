@@ -31,5 +31,6 @@
     <LibraryObject Name="UtWs" Source="TS_UnitTest.Libraries.UtWs.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="UtMgr" Source="TS_UnitTest.Libraries.UtMgr.lby" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="SPLMyCalc" Source="TS_UnitTest.Samples.Tests_Program.SPLMyCalc.lby" Memory="UserROM" Language="IEC" Debugging="true" />
+    <LibraryObject Name="ArProject" Source="Libraries.ArProject.lby" Memory="UserROM" Language="binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>
