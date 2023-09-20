@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio Version=4.12.4.107 FileVersion="4.9"?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="X20BM11" Type="X20BM11" Version="1.1.0.0">
+    <Connection Connector="X2X1" TargetModule="X20CP1586" TargetConnector="IF6" />
+  </Module>
   <Module Name="X20CP1586" Type="X20CP1586" Version="1.10.0.0">
     <Connector Name="IF2">
       <Parameter ID="ActivateDevice" Value="1" />
@@ -19,5 +22,11 @@
     <Parameter ID="FileDeviceName1" Value="USER" />
     <Parameter ID="FileDevicePath1" Value="USER_PATH" />
     <Parameter ID="EthernetHostName" Value="machine2" />
+  </Module>
+  <Module Name="X20TB12" Type="X20TB12" Version="1.0.0.0" />
+  <Module Name="X20cDO9321" Type="X20cDO9321" Version="1.2.0.0">
+    <Connection Connector="SS1" TargetModule="X20TB12" TargetConnector="SS" />
+    <Connection Connector="SL" TargetModule="X20BM11" TargetConnector="SL1" />
+    <Parameter ID="Supervision" Value="off" />
   </Module>
 </Hardware>

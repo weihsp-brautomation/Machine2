@@ -9,6 +9,7 @@
     <Task Name="SPL_Behavi" Source="TS_UnitTest.Samples.Framework_Features.SPL_Behavior.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="utTemplate" Source="TS_UnitTest.Templates.HelperTool_Supported.utTemplate_automated.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
     <Task Name="utTemplat1" Source="TS_UnitTest.Templates.NoToolSupport.utTemplate_manual.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
+    <Task Name="ToggleOutp" Source="ToggleOutput.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3" />
@@ -19,6 +20,19 @@
   <TaskClass Name="Cyclic#6" />
   <TaskClass Name="Cyclic#7" />
   <TaskClass Name="Cyclic#8" />
+  <Binaries>
+    <BinaryObject Name="FWRules" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="TCData" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="udbdef" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="User" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="iomap" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="Role" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="arconfig" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="asfw" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="ashwac" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="sysconf" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="ashwd" Source="" Memory="SystemROM" Language="Binary" />
+  </Binaries>
   <Libraries>
     <LibraryObject Name="LibAssert1" Source="TS_UnitTest.Samples.Framework_Extension_With_Custom_Asserts.LibAssert1.lby" Memory="None" Language="ANSIC" Debugging="true" />
     <LibraryObject Name="AsBrStr" Source="Libraries.AsBrStr.lby" Memory="UserROM" Language="binary" Debugging="true" />

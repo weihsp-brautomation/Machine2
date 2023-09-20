@@ -1,0 +1,6 @@
+VAR
+	ActTime : UDINT;
+	SetTime_1Hz : UDINT;
+	Output_1Hz : BOOL;
+	Output_1Hz_Inv : BOOL;
+END_VAR

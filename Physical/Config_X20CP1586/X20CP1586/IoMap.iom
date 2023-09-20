@@ -1,4 +1,14 @@
-
 VAR_CONFIG
-
+	::ToggleOutp:Output_1Hz AT %QX."X20cDO9321".DigitalOutput01;
+	::ToggleOutp:Output_1Hz AT %QX."X20cDO9321".DigitalOutput03;
+	::ToggleOutp:Output_1Hz AT %QX."X20cDO9321".DigitalOutput05;
+	::ToggleOutp:Output_1Hz AT %QX."X20cDO9321".DigitalOutput07;
+	::ToggleOutp:Output_1Hz AT %QX."X20cDO9321".DigitalOutput09;
+	::ToggleOutp:Output_1Hz AT %QX."X20cDO9321".DigitalOutput11;
+	::ToggleOutp:Output_1Hz_Inv  AT %QX."X20cDO9321".DigitalOutput02;
+	::ToggleOutp:Output_1Hz_Inv  AT %QX."X20cDO9321".DigitalOutput04;
+	::ToggleOutp:Output_1Hz_Inv  AT %QX."X20cDO9321".DigitalOutput06;
+	::ToggleOutp:Output_1Hz_Inv  AT %QX."X20cDO9321".DigitalOutput08;
+	::ToggleOutp:Output_1Hz_Inv  AT %QX."X20cDO9321".DigitalOutput10;
+	::ToggleOutp:Output_1Hz_Inv  AT %QX."X20cDO9321".DigitalOutput12;
 END_VAR
